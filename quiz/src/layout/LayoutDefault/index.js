@@ -6,6 +6,8 @@ import { Link, NavLink, Outlet } from "react-router-dom";
 function LayoutDefautl() {
   // get token when login success
   const token = getCookie("token");
+  /* when isLogin change will re-render layout */
+  const isLogin = useSelector((state) => state.login);
 
   return (
     <>

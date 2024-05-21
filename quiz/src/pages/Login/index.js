@@ -7,8 +7,12 @@ import {
   eraseCookie,
   deleteAllCookies,
 } from "../../helpers/cookie";
+import { useDispatch } from "react-redux";
+import { checkLogin } from "../../actions/loginAction";
+
 export default function Login() {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const handleSubmitFormLogin = async (e) => {
     e.preventDefault();
@@ -23,7 +27,9 @@ export default function Login() {
       setCookie("token", response[0].token, 1);
       setCookie("name", response[0].name, 1);
       navigate("/");
-      alert("Login success");
+
+      // dispatch action checkLogin
+      dispatch(checkLogin(true));
     } else {
       alert("Login failed");
     }

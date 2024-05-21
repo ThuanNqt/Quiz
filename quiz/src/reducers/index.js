@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import { loginReducer } from "./login";
+import { loginReducer } from "./loginReducer";
 
 const allReducers = combineReducers({
-  loginReducer,
+  login: loginReducer,
 });
 
 export default allReducers;
