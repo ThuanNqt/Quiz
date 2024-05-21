@@ -3,12 +3,14 @@
     {
       "id": "user1",
       "name": "Nguyễn Văn A",
+      "email": "a@gmail.com",
       "password": "123456",
       "token": "abcdef1234567890"
     },
     {
       "id": "user2",
       "name": "Trần Thị B",
+      "email": "b@gmail.com",
       "password": "qwerty1234",
       "token": "qwertyuiopasdfghjklzxcvbnm"
     }

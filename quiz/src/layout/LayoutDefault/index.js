@@ -4,6 +4,9 @@ import "./LayoutDefault.scss";
 import { Link, NavLink, Outlet } from "react-router-dom";
 
 function LayoutDefautl() {
+  // get token when login success
+  const token = getCookie("token");
+
   return (
     <>
       <div className="layout-default">
@@ -16,13 +19,31 @@ function LayoutDefautl() {
               <li>
                 <NavLink to="/">Home</NavLink>
               </li>
-              <li>
-                <NavLink to="/topic">Topic</NavLink>
-              </li>
-              <li>
-                <NavLink to="/answers">Answers</NavLink>
-              </li>
+              {token ? (
+                <>
+                  <li>
+                    <NavLink to="/topic">Topic</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/answers">Answers</NavLink>
+                  </li>
+                </>
+              ) : (
+                <></>
+              )}
             </ul>
+          </div>
+          <div className="layout-default__account">
+            {token ? (
+              <>
+                <NavLink to={"/logout"}>Logout</NavLink>
+              </>
+            ) : (
+              <>
+                <NavLink to={"/login"}>Login</NavLink>
+                <NavLink to={"/register"}>Register</NavLink>
+              </>
+            )}
           </div>
         </header>
         <main className="layout-default__main">
