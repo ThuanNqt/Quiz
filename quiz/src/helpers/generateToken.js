@@ -7,4 +7,3 @@ export function generateToken() {
   }
   return token;
 }
-export default generateToken;
