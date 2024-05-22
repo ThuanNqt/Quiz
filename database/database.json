@@ -118,6 +118,126 @@
         "Xuân Diệu"
       ],
       "correctAnswer": 1
+    },
+    {
+      "id": "question6",
+      "topicId": "topic1",
+      "question": "What is 5 + 7?",
+      "answers": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "question7",
+      "topicId": "topic2",
+      "question": "What is the capital of France?",
+      "answers": [
+        "London",
+        "Berlin",
+        "Paris",
+        "Rome"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "question8",
+      "topicId": "topic3",
+      "question": "Which dynasty followed the Ly dynasty in Vietnam?",
+      "answers": [
+        "Tran Dynasty",
+        "Ho Dynasty",
+        "Le Dynasty",
+        "Mac Dynasty"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "question9",
+      "topicId": "topic4",
+      "question": "What is the largest continent by land area?",
+      "answers": [
+        "Africa",
+        "Asia",
+        "North America",
+        "South America"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "question10",
+      "topicId": "topic5",
+      "question": "What literary genre is 'The Hunger Games' by Suzanne Collins?",
+      "answers": [
+        "Science fiction",
+        "Dystopian",
+        "Fantasy",
+        "Historical fiction"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "question11",
+      "topicId": "topic1",
+      "question": "Solve for x: 2x + 3 = 7",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "question12",
+      "topicId": "topic2",
+      "question": "Explain the theory of relativity.",
+      "answers": [
+        "A complex physics theory...",
+        "A theory about gravity",
+        "A theory about light",
+        "A theory about atoms"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "question13",
+      "topicId": "topic3",
+      "question": "Compare and contrast the ruling styles of Qin Shi Huang and Han Gaozu.",
+      "answers": [
+        "An essay comparing...",
+        "A list of similarities",
+        "A list of differences",
+        "A biography of Qin Shi Huang"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "question14",
+      "topicId": "topic4",
+      "question": "Analyze the factors that led to the fall of the Roman Empire.",
+      "answers": [
+        "An essay analyzing...",
+        "A list of reasons",
+        "The life of Julius Caesar",
+        "The geography of the Roman Empire"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "question15",
+      "topicId": "topic5",
+      "question": "Identify the literary devices used in William Shakespeare's sonnets.",
+      "answers": [
+        "An explanation of...",
+        "Examples of metaphors",
+        "A biography of Shakespeare",
+        "The historical context of sonnets"
+      ],
+      "correctAnswer": 1
     }
   ],
   "answers": [
@@ -245,6 +365,44 @@
           "answer": 2
         }
       ]
+    },
+    {
+      "userId": "user1",
+      "topicId": "topic1",
+      "answers": [
+        {
+          "questionId": "question1",
+          "answer": 1
+        },
+        {
+          "questionId": "question6",
+          "answer": 2
+        },
+        {
+          "questionId": "question11",
+          "answer": 2
+        }
+      ],
+      "id": "RR9rZiY"
+    },
+    {
+      "userId": "user1",
+      "topicId": "topic1",
+      "answers": [
+        {
+          "questionId": "question1",
+          "answer": 2
+        },
+        {
+          "questionId": "question6",
+          "answer": 2
+        },
+        {
+          "questionId": "question11",
+          "answer": 3
+        }
+      ],
+      "id": "7PuH3W0"
     }
   ]
 }
