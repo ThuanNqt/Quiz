@@ -38,7 +38,7 @@ export const routes = [
             element: <Answers />,
           },
           {
-            path: "quiz/:id",
+            path: "quiz/:topicId",
             element: <Quiz />,
           },
           {
