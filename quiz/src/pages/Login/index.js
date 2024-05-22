@@ -26,6 +26,7 @@ export default function Login() {
     if (response.length > 0) {
       setCookie("token", response[0].token, 1);
       setCookie("name", response[0].name, 1);
+      setCookie("userId", response[0].id, 1);
       navigate("/");
 
       // dispatch action checkLogin
