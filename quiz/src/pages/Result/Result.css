@@ -10,6 +10,7 @@
   color: red;
 }
 
-.result__item--result {
+.result__item--correct {
   color: green;
+  font-weight: 700;
 }
